@@ -12,7 +12,7 @@ blueprint:
         This automation is triggered by its falling edge.
       selector:
         entity:
-          domain: binary_sensor
+          domain: input_boolean
     light:
       name: Light
       selector:
